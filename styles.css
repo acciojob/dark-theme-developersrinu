@@ -1,16 +1,25 @@
-#app{
-  height:90vh;
-}
-.night{
-  background-color: black;
-  color:white;
+/* styles.css */
+
+.day {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center; /* Corrected property name */
 }
 
-#swap{
-  outline:0;
+
+.night {
+    background-color: #2d2d2d;
+    color: #ffffff;
+	text-align: center;
 }
 
-.button_night{
-  background-color:blue;
-  color:white; 
+.button_day {
+    background-color: #008CBA;
+    color: #ffffff;
 }
+
+.button_night {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
